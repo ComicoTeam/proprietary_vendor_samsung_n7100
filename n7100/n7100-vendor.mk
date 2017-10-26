@@ -30,13 +30,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/usr/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/usr/keylayout/sec_e-pen.kl:system/usr/keylayout/sec_e-pen.kl \
-    $(LOCAL_PATH)/proprietary/usr/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl
-
-PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bluetooth/bcm4334.hcd:system/vendor/firmware/bluetooth/bcm4334.hcd \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bluetooth/bcm4334_murata.hcd:system/vendor/firmware/bluetooth/bcm4334_murata.hcd \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bluetooth/bcm4334_semco.hcd:system/vendor/firmware/bluetooth/bcm4334_semco.hcd \
