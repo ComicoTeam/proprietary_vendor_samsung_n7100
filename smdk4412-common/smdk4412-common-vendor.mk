@@ -65,4 +65,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4412-common/proprietary/vendor/firmware/fimc_is_fw.bin:system/vendor/firmware/fimc_is_fw.bin \
     vendor/samsung/smdk4412-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/smdk4412-common/proprietary/vendor/firmware/setfile.bin:system/vendor/firmware/setfile.bin \
-    vendor/samsung/smdk4412-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/smdk4412-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/smdk4412-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
