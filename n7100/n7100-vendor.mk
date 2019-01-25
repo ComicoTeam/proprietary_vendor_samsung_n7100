@@ -20,5 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n7100/proprietary/vendor/lib/hw/gps.exynos4.vendor.so:system/vendor/lib/hw/gps.exynos4.vendor.so \
     vendor/samsung/n7100/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/n7100/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/n7100/proprietary/lib/libstlport.so:system/lib/libstlport.so
+    vendor/samsung/n7100/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/samsung/n7100/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/n7100/proprietary/lib/libsecril-client-sap.so:system/lib/libsecril-client-sap.so
 
