@@ -20,7 +20,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libakm.so:system/lib/libakm.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
+    $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    $(LOCAL_PATH)/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    $(LOCAL_PATH)/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+    $(LOCAL_PATH)/proprietary/lib/libsecril-client-sap.so:system/lib/libsecril-client-sap.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
