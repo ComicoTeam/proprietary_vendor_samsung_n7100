@@ -16,6 +16,7 @@ LOCAL_PATH := vendor/samsung/n7100
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/gpsd:system/bin/gpsd
+    $(LOCAL_PATH)/proprietary/lib/libgpsd-compat.so:system/lib/libgpsd-compat.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libakm.so:system/lib/libakm.so \
